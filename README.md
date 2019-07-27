@@ -10,30 +10,30 @@ custom dotfiles for arch rice
 ### :camera: Visual
 | Name | Description |
 | --- | --- |
-| bspwm | tiling window manager that represents windows as the leaves of a full binary tree |
-| Polybar | fast and easy-to-use tool for creating status bars |
-| Compton | standalone compositor for Xorg |
-| dunst | lightweight replacement for the notification-daemons provided by most desktop environments |
-| pywal | generate and change color-schemes on the fly |
-| McMojave | macOS Mojave like theme which supports GTK 3 and GTK 2 based desktop environments |
-| feh | lightweight and powerful image viewer that can also be used to manage the desktop wallpaper for standalone window managers lacking such features |
+| [bspwm](https://wiki.archlinux.org/index.php/Bspwm) | tiling window manager that represents windows as the leaves of a full binary tree |
+| [Polybar](https://wiki.archlinux.org/index.php/Polybar) | fast and easy-to-use tool for creating status bars |
+| [Compton](https://wiki.archlinux.org/index.php/Compton) | standalone compositor for Xorg |
+| [dunst](https://wiki.archlinux.org/index.php/Dunst) | lightweight replacement for the notification-daemons provided by most desktop environments |
+| [pywal](https://github.com/dylanaraps/pywal) | generate and change color-schemes on the fly |
+| [McMojave](https://github.com/vinceliuice/Mojave-gtk-theme) | macOS Mojave like theme which supports GTK 3 and GTK 2 based desktop environments |
+| [feh](https://wiki.archlinux.org/index.php/Feh) | lightweight and powerful image viewer that can also be used to manage the desktop wallpaper for standalone window managers lacking such features |
 
 ### :computer: General Tools
 | Name | Description |
 | --- | --- |
-| ranger | text-based file manager written in Python |
-| vim | extended version of vi with additional features |
-| zsh | powerful shell that operates as both an interactive shell and as a scripting language interpreter |
-| Transmission | light-weight and cross-platform BitTorrent client |
-| ImageMagick | free and open-source software suite for displaying, converting, and editing raster image and vector image files |
+| [ranger](https://wiki.archlinux.org/index.php/Ranger) | text-based file manager written in Python |
+| [vim](https://wiki.archlinux.org/index.php/Vim) | extended version of vi with additional features |
+| [zsh](https://wiki.archlinux.org/index.php/Zsh) | powerful shell that operates as both an interactive shell and as a scripting language interpreter |
+| [Transmission](https://wiki.archlinux.org/index.php/Transmission) | light-weight and cross-platform BitTorrent client |
+| [ImageMagick](https://wiki.archlinux.org/index.php/ImageMagick) | free and open-source software suite for displaying, converting, and editing raster image and vector image files |
 
 ### :paperclip: Misc
 | Name | Description |
 | --- | --- |
-| neofetch | CLI system information tool written in BASH that supports displaying images |
-| sxhkd | simple X hotkey daemon, by the developer of bspwm, that reacts to input events by executing commands |
-| scrot | simple command-line screenshot utility for X |
-| PulseAudio | general purpose sound server intended to run as a middleware between your applications and your hardware devices |
+| [neofetch](https://www.archlinux.org/packages/community/any/neofetch/) | CLI system information tool written in BASH that supports displaying images |
+| [sxhkd](https://wiki.archlinux.org/index.php/Sxhkd) | simple X hotkey daemon, by the developer of bspwm, that reacts to input events by executing commands |
+| [scrot](https://www.archlinux.org/packages/community/x86_64/scrot/) | simple command-line screenshot utility for X |
+| [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio) | general purpose sound server intended to run as a middleware between your applications and your hardware devices |
 
 ## :page_facing_up: Usage
 
