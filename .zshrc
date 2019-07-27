@@ -4,7 +4,7 @@ echo "> $(uptime -p) since $(uptime -s)"
 echo "> $(tty)"
 echo ""
 
-export PATH=/home/maho/scripts:$PATH
+export PATH=~/scripts:$PATH
 
 HISTFILE=~/.histfile
 HISTSIZE=1000
