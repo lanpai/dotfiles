@@ -1,0 +1,10 @@
+#!/bin/sh
+
+BG_PATH=~/pictures/wallpapers
+
+CURRENT_BG=$(cat $BG_PATH/current)
+
+feh --bg-fill $CURRENT_BG
+wal -n --backend haishoku -i $CURRENT_BG
+killall dunst
+dunst &

@@ -1,0 +1,73 @@
+urxvt*foreground:   {foreground}
+urxvt*background:   {background.alpha}
+urxvt*cursorColor:  {cursor}
+urxvt*borderColor:  {background.alpha}
+
+urxvt*color0:  {color0}
+urxvt*color1:  {color1}
+urxvt*color2:  {color2}
+urxvt*color3:  {color3}
+urxvt*color4:  {color4}
+urxvt*color5:  {color5}
+urxvt*color6:  {color6}
+urxvt*color7:  {color7}
+urxvt*color8:  {color8}
+urxvt*color9:  {color9}
+urxvt*color10:  {color10}
+urxvt*color11:  {color11}
+urxvt*color12:  {color12}
+urxvt*color13:  {color13}
+urxvt*color14:  {color14}
+urxvt*color15:  {color15}
+
+urxvt*color66:  {color0}
+
+urxvt*depth: 32
+urxvt*scrollBar: false
+urxvt*font: xft:Source Code Pro:style=Light:size=9:antialias=true
+urxvt*boldFont: xft:Source Code Pro:style=Medium:size=9:antialias=true
+urxvt*italicFont: xft:Source Code Pro:style=Light Italic:size=9:antialias=true
+urxvt*letterSpace: 0
+
+float*foreground:   {foreground}
+float*background:   {background.alpha}
+float*cursorColor:  {cursor}
+float*borderColor:  {background.alpha}
+
+float*color0:  {color0}
+float*color1:  {color1}
+float*color2:  {color2}
+float*color3:  {color3}
+float*color4:  {color4}
+float*color5:  {color5}
+float*color6:  {color6}
+float*color7:  {color7}
+float*color8:  {color8}
+float*color9:  {color9}
+float*color10:  {color10}
+float*color11:  {color11}
+float*color12:  {color12}
+float*color13:  {color13}
+float*color14:  {color14}
+float*color15:  {color15}
+
+float*color66:  {color0}
+
+float*depth: 32
+float*scrollBar: false
+float*font: xft:Source Code Pro:style=Light:size=9:antialias=true
+float*boldFont: xft:Source Code Pro:style=Medium:size=9:antialias=true
+float*italicFont: xft:Source Code Pro:style=Light Italic:size=9:antialias=true
+float*letterSpace: 0
+
+urxvt*internalBorder: 10
+float*internalBorder: 10
+
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft*rgba: rgb
+Xft*autohint: false
+Xft*hintstyle: hintslight
+Xft*lcdfilter: lcddefault
+

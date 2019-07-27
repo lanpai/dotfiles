@@ -1,0 +1,24 @@
+#!/bin/sh
+
+FILE=$HOME/pictures/screenshots/`date +'%Y-%m-%d_%H-%M-%S'`.png
+scrot $FILE
+mpv $HOME/sounds/snap.mp3 ;
+while getopts "u c" opt; do
+    case $opt in
+        u)
+            URL=$(curl -f -F image=@$FILE "https://i.piyo.cafe/post.php")
+            if [ $? -eq 0 ]; then
+                echo "$URL" | xclip -selection c
+                notify-send -u low "Screencap" "Uplaoded to <u><a href="$URL">$URL</a></u>"
+                mpv $HOME/sounds/bell.mp3
+            else
+                echo "Failed to upload"
+                notify-send -u critical "Screencap" "Failed to upload"
+            fi
+            #curl -f -F image=@$FILE "https://i.piyo.cafe/post.php" && xclip -selection c && mpv $HOME/sounds/bell.mp3
+            ;;
+        c)
+            xclip -selection c -t image/png -i $FILE
+            ;;
+    esac
+done

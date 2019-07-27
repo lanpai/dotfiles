@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. ~/.cache/wal/colors.sh
+dmenu_run -l 7 -fn "xft:Source Code Pro:style=Light:size=9" -nb "$color0" -nf "$color15" -sb "$color4" -sf "$color15" -i "$@"

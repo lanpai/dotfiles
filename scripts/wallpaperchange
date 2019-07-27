@@ -1,0 +1,6 @@
+#!/bin/sh
+
+BG_PATH=~/pictures/wallpapers
+
+echo "$1" > $BG_PATH/current
+wallpaperopen
