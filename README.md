@@ -2,7 +2,6 @@
 custom dotfiles for arch rice
 
 ![](screenshots/clover.png)
-![](screenshots/dawn.png)
 ![](screenshots/katana.png)
 ![](screenshots/rifle.png)
 
