@@ -9,7 +9,7 @@ while getopts "u c" opt; do
             URL=$(curl -f -F image=@$FILE "https://i.piyo.cafe/post.php")
             if [ $? -eq 0 ]; then
                 echo "$URL" | xclip -selection c
-                notify-send -u low "Screencap" "Uplaoded to <u><a href="$URL">$URL</a></u>"
+                notify-send -u low "Screencap" "Uploaded to <u><a href="$URL">$URL</a></u>"
                 mpv $HOME/sounds/bell.mp3
             else
                 echo "Failed to upload"
